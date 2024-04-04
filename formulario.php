@@ -3,6 +3,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["uname"];
+  $last = $_POST["ulast"];
   $password = $_POST["pswd"];
   $email = $_POST["email"];
   $comment = $_POST["comment"];
@@ -27,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </tr>
     <tr>
       <td>$name</td>
+      <td>$last</td>
       <td>$email</td>
       <td>$password</td>
       <td>$comment</td>      
