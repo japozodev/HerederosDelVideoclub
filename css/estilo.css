@@ -117,3 +117,39 @@ li{
 
 }
 
+/*Modificaciones para el DataPicker*/
+
+/*Modificamos el día seleccionado */
+.ui-datepicker .ui-state-active {
+  background: #1e0126 !important;
+  color: white;
+}
+
+/*Estilo al hacer "hover"*/
+.ui-datepicker-calendar .ui-state-hover {
+  background: #EE05F2 !important;
+  color:white;
+}
+
+/*Borde del día seleccionado*/
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  border: 1px solid #EE05F2 !important;
+  font-weight: normal;
+  color: white;
+}
+
+/* Cabecera del Calendario */
+.ui-datepicker-header {
+  background:#1e0126 !important   
+}
+
+/* Flechas calendario */
+.ui-datepicker .ui-datepicker-prev , .ui-datepicker-next{
+  right: 2px;
+  background: #EE05F2
+}

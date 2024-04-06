@@ -4,6 +4,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = $_POST["uname"];
   $last = $_POST["ulast"];
+  $fechanac = $POST["fechanacimiento"];
   $password = $_POST["pswd"];
   $email = $_POST["email"];
   $comment = $_POST["comment"];
@@ -21,6 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </tr>        
     <tr>
       <th>Nombre Usuario </th>
+      <th>Apellido </th>
+      <th>Fecha Nacimiento </th>
       <th>Correo  </th>
       <th>Contraseña </th>
       <th>Comentario </th>
@@ -29,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <tr>
       <td>$name</td>
       <td>$last</td>
+      <td>$fechanac</td>
       <td>$email</td>
       <td>$password</td>
       <td>$comment</td>      

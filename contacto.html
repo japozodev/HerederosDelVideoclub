@@ -6,17 +6,22 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="icon" type="image/vnd.icon" href="/img/fav.ico">
+  <link rel="icon" type="image/vnd.icon" href="/img/fav.ico"/>
   <link type="text/css" rel="stylesheet" href="bs/css/bootstrap.min.css"/>
-  <link type="text/css" rel="stylesheet" href="/css/estilo.css"/>
+  <link type="text/css" rel="stylesheet" href="/css/estilo.css"/>    
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <title>HdV - Contacto</title>
 </head>
 
 <body>
   <script src="bs/js/bootstrap.bundle.min.js"></script>
+  <script src="js/calendario.js"></script>
 
   <header>
     <a href="index.html"><img src="/img/cabecera.jpg" class="img-fluid" alt="Logo Herederos del Videoclub"></a>
@@ -70,10 +75,16 @@
             <div class="invalid-feedback">Por favor, dime tu nombre.</div>
           </div>
           <div class="mb-3 mt-3">
-            <label for="nombre" class="form-label">Apellidos:</label>
+            <label for="apellidos" class="form-label">Apellidos:</label>
             <input type="text" class="form-control" id="ulast" placeholder="Introduce tus apellidos" name="ulast" required>
             <div class="valid-feedback">Genial una heráldica de la que estar orgulloso.</div>
             <div class="invalid-feedback">Por favor, indicame tus apellidos.</div>
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="fechanacimiento" class="form-label">Fecha de nacimiento:</label>
+            <input type="text" class="form-control" id="fechanacimiento" placeholder="Introduce tu fecha de nacimiento" name="fechanacimiento" required>
+            <div class="valid-feedback">Lo recordaré para felicitarte.</div>
+            <div class="invalid-feedback">Todos hemos nacido, al menos una vez.</div>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Correo:</label>
