@@ -68,19 +68,41 @@
         <div class="card-body">
         <h1 class="card-title">Contacto</h1>
         <form action="/formulario.php" class="was-validated" method="post">
-          <div class="mb-3 mt-3">
-            <label for="nombre" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" id="uname" placeholder="Introduce tu nombre de usuario" name="uname" required>
-            <div class="valid-feedback">Ok, bonito nombre.</div>
-            <div class="invalid-feedback">Por favor, dime tu nombre.</div>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Introduce tu nombre" name="uname" required>
+              <div class="valid-feedback">Ok, bonito nombre.</div>
+              <div class="invalid-feedback">Por favor, dime tu nombre.</div>
+            </div>
+            <div class="col">
+              <label for="apellidos" class="form-label">Apellidos:</label>
+              <input type="text" class="form-control" id="ulast" placeholder="Introduce tus apellidos" name="ulast" required>
+              <div class="valid-feedback">Genial una heráldica de la que estar orgulloso.</div>
+              <div class="invalid-feedback">Por favor, indicame tus apellidos.</div>
+            </div>            
+          </div> 
+          <div class="mb-3">
+            <label for="direccion" class="form-label">Dirección:</label>
+            <input type="text" class="form-control" id="direccion" placeholder="Introduce tu dirección" name="direccion" required>
+            <div class="valid-feedback">Ya se donde mandarte una postal.</div>
+            <div class="invalid-feedback">Todos tenemos un sitio que consideramos el hogar.</div>
           </div>
-          <div class="mb-3 mt-3">
-            <label for="apellidos" class="form-label">Apellidos:</label>
-            <input type="text" class="form-control" id="ulast" placeholder="Introduce tus apellidos" name="ulast" required>
-            <div class="valid-feedback">Genial una heráldica de la que estar orgulloso.</div>
-            <div class="invalid-feedback">Por favor, indicame tus apellidos.</div>
-          </div>
-          <div class="mb-3 mt-3">
+          <div class="row mb-3">
+            <div class="col">
+              <label for="localidad" class="form-label">Localidad:</label>
+              <input type="text" class="form-control" id="localidad" placeholder="Introduce tu localidad " name="localidad" required>
+              <div class="valid-feedback">Seguro que es un lugar precioso.</div>
+              <div class="invalid-feedback">Por favor, indicame tu localidad.</div>
+            </div>
+            <div class="col">
+              <label for="provincia" class="form-label">Provincia:</label>
+              <input type="text" class="form-control" id="provincia" placeholder="Introduce tu provincia" name="provincia" required>
+              <div class="valid-feedback">Genial, magnifica región.</div>
+              <div class="invalid-feedback">Por favor, indicame tu provincia.</div>
+            </div>            
+          </div>                  
+          <div class="mb-3">
             <label for="fechanacimiento" class="form-label">Fecha de nacimiento:</label>
             <input type="text" class="form-control" id="fechanacimiento" placeholder="Introduce tu fecha de nacimiento" name="fechanacimiento" required>
             <div class="valid-feedback">Lo recordaré para felicitarte.</div>
@@ -96,7 +118,7 @@
             <label for="pwd" class="form-label">Contraseña:</label>
             <input type="password" class="form-control" id="pwd" placeholder="Introduce una contraseña" name="pswd" required>
             <div class="valid-feedback">Prometo que no se la diré a nadie.</div>
-            <div class="invalid-feedback">Necesitamos una contraseña...no pongas 1234...</div>
+            <div class="invalid-feedback">Necesitamos una contraseña, no pongas 1234...</div>
           </div>        
           <div class="mb-3">
             <label for="comment" class="form-label">Comentario:</label>
@@ -106,8 +128,8 @@
           </div>
           <div class="form-check mb-3">
             <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
-            <label class="form-check-label" for="myCheck">Estoy de acuerdo, mandadme información.</label>
-            <div class="valid-feedback">Genial te mantendremos al día.</div>
+            <label class="form-check-label" for="myCheck">Estoy de acuerdo, acepto la politica de privacidad.</label>
+            <div class="valid-feedback">Genial, agradecemos tu confianza.</div>
             <div class="invalid-feedback">Necestiamos tu consentimiento.</div>
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>

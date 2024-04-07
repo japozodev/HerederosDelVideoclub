@@ -7,6 +7,7 @@ $(function () {
   $("#fechanacimiento").datepicker({
     regional: "es",
     closeText: "Cerrar",
+    defaultDate: "-14y",//La fecha por defecto será hoy menos 14 años para evitar seleccionar menores de esa edad
     changeYear: true,
     changeMonth: true,
     firstDay: 1, 

@@ -1,64 +1,81 @@
-/* Pozo González José Antonio. DNI: 71440331P email: iwc70842@educastur.es*/   
+/* Pozo González José Antonio. DNI: 71440331P email: iwc70842@educastur.es*/
 
 /*Fuente para la web*/
 body {
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Roboto', sans-serif;
 }
+
 /*Sobreescritura de colores de las clase de bootstrap para adecuar a la gama cromatica*/
-.nav-link{
+.nav-link {
   color: #A303A6;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   color: #5005f2;
 }
-.navbar-brand{
+
+.navbar-brand {
   color: #EE05F2
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
   color: #5005F2
 }
+
 .nav-item.dropdown .dropdown-menu {
   background-color: #1e0126 !important;
   color: #EE05F2;
 }
+
 .dropdown-item {
   color: #EE05F2;
 }
+
 .dropdown-item:hover {
   background-color: #1e0126;
   color: #5005F2;
 }
+
 .navbar-nav .nav-link.show {
   color: #5005F2;
 }
-.navbar{
+
+.navbar {
   background-color: #1e0126;
 }
-.btn-primary{
-  background-color: #EE05F2;  
+
+.btn-primary {
+  background-color: #EE05F2;
 }
-.btn-primary:hover{  
+
+.btn-primary:hover {
   background-color: #5005f2;
 }
-.card{
-  background-color: #1e0126;  
+
+.card {
+  background-color: #1e0126;
 }
-footer{
+
+footer {
   background-color: #1e0126;
   color: #EE05F2;
 }
-.btn{
-  border-color: #1e0126 ;
+
+.btn {
+  border-color: #1e0126;
 }
+
 /*Cambio del color de los link para que sean de nuestra paleta de colores*/
-a{
+a {
   color: #5005F2;
 }
-a:hover{
+
+a:hover {
   color: #A303A6;
 }
-p{
-  color:#A303A6
+
+p {
+  color: #A303A6
 }
 
 /*Imagen de fondo del cuerpo de la web*/
@@ -67,55 +84,67 @@ body {
 }
 
 /*Modificaciones para el formulario y la tabla de resultados PHP*/
-#formulario{
+#formulario {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
 }
+
 table {
   padding: 5px;
   width: 75%;
   background-color: #1e0126;
   color: #EE05F2;
-  margin: auto;  
+  margin: auto;
 }
-td{
+
+td {
   color: #5005f2;
   border: 1px solid black;
 }
-li{
-  list-style:none;
+
+li {
+  list-style: none;
   color: #EE05F2;
 }
 
 /*Modificaciones para la pagina del Mapa Web*/
 
-#mapaweb{
+#mapaweb {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 /*Efecto fotos página héroes del videoclub*/
-#galeriaheroes{
+#galeriaheroes {
   display: flex;
   width: 100%;
   height: 500px;
 }
-#galeriaheroes img{
+
+#galeriaheroes img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
   opacity: .8;
   transition: .5s ease;
 }
-#galeriaheroes img:hover{
-  cursor:crosshair;
+
+#galeriaheroes img:hover {
+  cursor: crosshair;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
 
 }
+
+/* Animacion imagenes página principal */
+
+.card-img-top:hover {
+  scale: 1.05;
+}
+
+
 
 /*Modificaciones para el DataPicker*/
 
@@ -128,7 +157,7 @@ li{
 /*Estilo al hacer "hover"*/
 .ui-datepicker-calendar .ui-state-hover {
   background: #EE05F2 !important;
-  color:white;
+  color: white;
 }
 
 /*Borde del día seleccionado*/
@@ -145,11 +174,12 @@ a.ui-button:active,
 
 /* Cabecera del Calendario */
 .ui-datepicker-header {
-  background:#1e0126 !important   
+  background: #1e0126 !important
 }
 
 /* Flechas calendario */
-.ui-datepicker .ui-datepicker-prev , .ui-datepicker-next{
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker-next {
   right: 2px;
   background: #EE05F2
 }
