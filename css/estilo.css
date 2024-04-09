@@ -138,10 +138,11 @@ li {
 
 }
 
-/* Animacion imagenes página principal */
+/* Animacion imagenes tienda */
 
-.card-img-top:hover {
-  scale: 1.05;
+#carrito .card-img-top:hover {
+  scale: 1.2;
+  border-radius: 10px;
 }
 
 
