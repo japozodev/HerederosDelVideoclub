@@ -184,3 +184,17 @@ a.ui-button:active,
   right: 2px;
   background: #EE05F2
 }
+
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+.navbar-brand img:hover {
+  animation: 3s rotacion linear infinite;
+  transform-origin: 50% 50%;
+}
