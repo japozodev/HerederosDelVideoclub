@@ -187,14 +187,14 @@ a.ui-button:active,
 
 @keyframes rotacion {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1);
   }
   to {
-    transform: rotate(720deg);
+    transform: rotate(360deg) scale(1.3);
   }
 }
 
-.navbar-brand img:hover {
-  animation: 3s rotacion linear infinite;
-  transform-origin: 50% 50%;
+.navbar-brand:hover img {
+  animation: rotacion .5s ease forwards;
+  transform-origin: center;
 }
