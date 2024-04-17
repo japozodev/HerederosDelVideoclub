@@ -1,5 +1,13 @@
 /* Pozo González José Antonio. DNI: 71440331P email: iwc70842@educastur.es*/
 
+/*
+Colores previos a lo cambios para accesibilidad
+#A303A6
+#EE05F2
+#5005F2
+#1E0126
+*/
+
 /*Fuente para la web*/
 body {
   font-family: 'Roboto', sans-serif;
@@ -7,37 +15,37 @@ body {
 
 /*Sobreescritura de colores de las clase de bootstrap para adecuar a la gama cromatica*/
 .nav-link {
-  color: #A303A6;
+  color: #FA54FC;
 }
 
 .nav-link:hover {
-  color: #5005f2;
+  color: #B08DFC;
 }
 
 .navbar-brand {
-  color: #EE05F2
+  color: #FA54FC;
 }
 
 .navbar-brand:hover {
-  color: #5005F2
+  color: #B08DFC;
 }
 
 .nav-item.dropdown .dropdown-menu {
   background-color: #1e0126 !important;
-  color: #EE05F2;
+  color: #FA54FC;
 }
 
 .dropdown-item {
-  color: #EE05F2;
+  color: #FA54FC;
 }
 
 .dropdown-item:hover {
   background-color: #1e0126;
-  color: #5005F2;
+  color: #B08DFC;
 }
 
 .navbar-nav .nav-link.show {
-  color: #5005F2;
+  color: #B08DFC;
 }
 
 .navbar {
@@ -45,11 +53,11 @@ body {
 }
 
 .btn-primary {
-  background-color: #EE05F2;
+  background-color: #FA54FC;
 }
 
 .btn-primary:hover {
-  background-color: #5005f2;
+  background-color: #B08DFC;
 }
 
 .card {
@@ -58,7 +66,7 @@ body {
 
 footer {
   background-color: #1e0126;
-  color: #EE05F2;
+  color: #FA54FC;
 }
 
 .btn {
@@ -67,15 +75,15 @@ footer {
 
 /*Cambio del color de los link para que sean de nuestra paleta de colores*/
 a {
-  color: #5005F2;
+  color: #B08DFC;
 }
 
 a:hover {
-  color: #A303A6;
+  color: #FA54FC;
 }
 
 p {
-  color: #A303A6;
+  color: #FA54FC;
 }
 
 /*Imagen de fondo del cuerpo de la web*/
@@ -93,18 +101,18 @@ table {
   padding: 5px;
   width: 75%;
   background-color: #1e0126;
-  color: #EE05F2;
+  color: #FA54FC;
   margin: auto;
 }
 
 td {
-  color: #5005f2;
+  color: #B08DFC;
   border: 1px solid black;
 }
 
 li {
   list-style: none;
-  color: #EE05F2;
+  color: #FA54FC;
 }
 
 /*Modificaciones para la pagina del Mapa Web*/
