@@ -73,6 +73,10 @@ footer {
   border-color: #1e0126;
 }
 
+.invalid-feedback{
+  color:#FF1F03 !important
+}
+
 /*Cambio del color de los link para que sean de nuestra paleta de colores*/
 a {
   color: #B08DFC;

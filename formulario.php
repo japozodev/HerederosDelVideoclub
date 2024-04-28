@@ -2,8 +2,8 @@
 <link type="text/css" rel="stylesheet" href="bs/css/bootstrap.min.css">
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["uname"];
-  $last = $_POST["ulast"];
+  $nombre = $_POST["nombre"];
+  $apellido = $_POST["apellido"];
   $direccion = $_POST["direccion"];
   $localidad = $_POST["localidad"];
   $provincia = $_POST["provincia"];
@@ -36,8 +36,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <th>¿Estás de acuerdo? </th>
     </tr>
     <tr>
-      <td>$name</td>
-      <td>$last</td>
+      <td>$nombre</td>
+      <td>$apellido</td>
       <td>$direccion</td>
       <td>$localidad</td>
       <td>$provincia</td>
