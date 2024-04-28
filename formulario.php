@@ -3,7 +3,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $nombre = $_POST["nombre"];
-  $apellido = $_POST["apellido"];
+  $apellidos = $_POST["apellidos"];
   $direccion = $_POST["direccion"];
   $localidad = $_POST["localidad"];
   $provincia = $_POST["provincia"];
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </tr>
     <tr>
       <td>$nombre</td>
-      <td>$apellido</td>
+      <td>$apellidos</td>
       <td>$direccion</td>
       <td>$localidad</td>
       <td>$provincia</td>
